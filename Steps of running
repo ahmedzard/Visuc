@@ -1,0 +1,28 @@
+Prerequesites:
+you should have the following running on your device to be able to test this Demo
+  - Python 3.9 installed on your device
+  - the following python libraries 
+        numpy, tensorflow, Pillow, playsound
+
+Steps:
+1. downlaod the following files to a proper place on your device
+    - music_files
+    - images
+    - classifier.py
+    - colormodel_trained_90.h5
+2. extract the muci_files rar file 
+3. extract the images rar file
+4. open classifier.py in a proper txt editor 
+5. replace the path of "colormodel_trained_90.h5" file to the proper path on your device (line 15)
+6. replace the path of "image" file to the proper path on your device (line 50)
+7. replace the path of all "music" files to the proper path on your device (line77, 80, 83, 86, 89, 92, 95, 98, 101, 104, 107)
+8. open the command line on your device
+9. navifgate to the home path of python:
+    ex, cd C:\Users\ahm\AppData\Local\Programs\Python\Python39
+10. run the following command:
+    py <PATH_OF_CLASSIFIER.PY_FILE>\classifier.py   ---> don't forget to replace <PATH_OF_CLASSIFIER.PY_FILE> with the proper path of the file on your device 
+    
+    
+ 11. if you faced any issue in running the code:
+        - you can search for the error code on the python doc website (https://docs.python.org/3/library/exceptions.html)
+        - you can follow with me on LinkedIn(https://www.linkedin.com/in/ahmedzard)
